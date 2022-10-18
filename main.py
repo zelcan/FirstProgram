@@ -3,4 +3,7 @@
 #Programma, kas sasveicinas ar lietotāju
 
 vards=input("Kā Tevi sauc?")
-print("Labdien, ",vards)
+if vards[-1]=='a':
+  print("Labdien MRS. ",vards)
+else: 
+  print("Labdien MR.", vards)
